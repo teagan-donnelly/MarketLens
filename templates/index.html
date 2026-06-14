@@ -7,6 +7,7 @@
     <title>Stock Price Checker</title>
   </head>
   <body>
+    {% block content %}
     <h1>Stock Price Checker</h1>
     <p>
       Enter a ticker symbol and a time interval to get a graph of the price!
@@ -50,5 +51,6 @@
  
       <button type="submit" value="Submits">Submit</button>
     </form>
+    {% endblock %}
   </body>
 </html>
